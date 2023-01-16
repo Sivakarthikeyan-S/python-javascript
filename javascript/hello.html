@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <script>
+        // function hello() {
+        //     // alert('Hello world');
+        //     const heading = document.querySelector('h1');
+        //     if (heading.innerHTML === 'Hello!') {
+        //         heading.innerHTML = 'Hello world!';
+        //     } else {
+        //         heading.innerHTML = 'Hello Siva!';
+        //     }
+        // }
+        document.addEventListener('DOMContentLoaded', function() {
+
+            document.querySelector('form').onsubmit = function() {
+                const name = document.querySelector('#name').value;
+                alert(`Hello, ${name}!`);
+            };
+
+        });
+    </script>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <form action="">
+        <input type="text" autofocus id="name" placeholder="Name" />
+        <input type="submit">
+    </form>
+    <!-- <button onClick="hello()">Click here</button> -->
+</body>
+</html>
