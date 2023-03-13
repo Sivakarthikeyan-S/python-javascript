@@ -1,0 +1,11 @@
+ES5, ES6, ES2016, ES2017, ES.Next
+
+ECMAScript vs JavaScript
+What do most environments suports?
+Transpilers(Babel, TypeScript, CoffeeScript, etc)
+Which syntax should I use?
+
+Closures:
+
+- Functions that refers to variables declared by parent function still have access to those variables.
+- Possible because of JavaScript's scoping.
