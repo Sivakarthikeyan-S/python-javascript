@@ -9,3 +9,9 @@ Closures:
 
 - Functions that refers to variables declared by parent function still have access to those variables.
 - Possible because of JavaScript's scoping.
+
+Immediately Invoked Function Expression:
+
+- A function expression that goes invoked immediately.
+- Creates closures
+-Doesn't add to modify global object
